@@ -1,83 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hoja de Vida - Andres Felipe Portilla</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
-  <header>
+  <section class="seccion" id="perfil">
     <h1>Andres Felipe Portilla</h1>
     <img src="img/WhatsApp Image 2026-09-03 at 7.31.14 AM.jpeg" alt="foto mia" width="280">
     <p>Estudiante de Ingeniería de Sistemas</p>
-  </header>
-
-  <hr>
-
-  <!-- SECCIÓN: EDUCACIÓN -->
-  <section id="educacion">
-    <h2>Educación</h2>
-    
-    <article>
-      <h3>Ingeniería de Sistemas</h3>
-      <p><strong>Institución:</strong> Universidad CESMAG</p>
-      <p><strong>Estado:</strong> En formación académica (5to semestre)</p>
-    </article>
   </section>
+  <main>
+    <hr>
 
-  <hr>
+    <!-- SECCIÓN: EDUCACIÓN -->
+    <section class="seccion " id="educacion">
+      <h2>Educación</h2>
 
-  <!-- SECCIÓN: EXPERIENCIA PROFESIONAL -->
-  <section id="experiencia">
-    <h2>Experiencia Profesional</h2>
-    
-    <article>
-      
-      <p><strong>Proyectos Académicos / Freefire</strong> (2022 Gran maestro)</p>
+      <article class="educacion">
+        <h3>Ingeniería de Sistemas</h3>
+        <p><strong>Institución:</strong> Universidad CESMAG</p>
+        <p><strong>Estado:</strong> En formación académica (5to semestre)</p>
+      </article>
+    </section>
+
+    <hr>
+
+    <!-- SECCIÓN: EXPERIENCIA PROFESIONAL -->
+    <section class="seccion" id="experiencia">
+      <h2>Experiencia Profesional</h2>
+
+      <article class="experiencia">
+
+        <p><strong>Proyectos Académicos / Freefire</strong> (2022 Gran maestro)</p>
+        <ul>
+          <li>Diseño de estructura semántica de sitios web con HTML5.</li>
+          <li>Diseño de prototipos para aplicaciones en Figma.</li>
+          <li>Gestión y control de versiones con Git y GitHub.</li>
+        </ul>
+      </article>
+    </section>
+
+    <hr>
+
+    <!-- SECCIÓN: HABILIDADES -->
+    <section class="seccion" id="habilidades">
+      <h2>Habilidades</h2>
       <ul>
-        <li>Diseño de estructura semántica de sitios web con HTML5.</li>
-        <li>Diseño de prototipos para aplicaciones en Figma.</li>
-        <li>Gestión y control de versiones con Git y GitHub.</li>
+        <li><strong>Desarrollo Web:</strong> HTML5, CSS3, JavaScript</li>
+        <li><strong>Herramientas & Control de Versiones:</strong> Git, GitHub, VS Code, Figma</li>
+        <li><strong>Bases de Datos:</strong> Lenguaje SQL, Microsoft Access</li>
+        <li><strong>Lógicas & Programación:</strong> Programación Orientada a Objetos (POO)</li>
       </ul>
-    </article>
-  </section>
+    </section>
 
-  <hr>
+    <hr>
 
-  <!-- SECCIÓN: HABILIDADES -->
-  <section id="habilidades">
-    <h2>Habilidades</h2>
-    <ul>
-      <li><strong>Desarrollo Web:</strong> HTML5, CSS3, JavaScript</li>
-      <li><strong>Herramientas & Control de Versiones:</strong> Git, GitHub, VS Code, Figma</li>
-      <li><strong>Bases de Datos:</strong> Lenguaje SQL, Microsoft Access</li>
-      <li><strong>Lógicas & Programación:</strong> Programación Orientada a Objetos (POO)</li>
-    </ul>
-  </section>
+    <!-- SECCIÓN: PROYECTOS -->
+    <section class="seccion" id="proyectos">
+      <h2>Proyectos</h2>
 
-  <hr>
+      <article class="proyectos">
+        <h3>Red Social Académica</h3>
+        <p>Diseño e implementación de prototipo en Figma y estructura web para una red social enfocada en interacción
+          universitaria e intereses académicos.</p>
+      </article>
 
-  <!-- SECCIÓN: PROYECTOS -->
-  <section id="proyectos">
-    <h2>Proyectos</h2>
-    
-    <article>
-      <h3>Red Social Académica</h3>
-      <p>Diseño e implementación de prototipo en Figma y estructura web para una red social enfocada en interacción universitaria e intereses académicos.</p>
-    </article>
-
-    <article>
-      <h3>Diseño y Normalización de Bases de Datos</h3>
-      <p>Estructuración de esquemas relacionales y modelado de datos (1FN, 2FN, 3FN) para sistemas de ventas y tiendas digitales.</p>
-    </article>
- </section>
+      <article class="proyectos">
+        <h3>Diseño y Normalización de Bases de Datos</h3>
+        <p>Estructuración de esquemas relacionales y modelado de datos (1FN, 2FN, 3FN) para sistemas de ventas y tiendas
+          digitales.</p>
+      </article>
+    </section>
 
     <hr style="border: none; border-top: 1px dashed #ccc; margin: 30px 0;">
 
     <!-- Enlace a la página de Pasatiempos -->
     <section style="margin-top: 20px;">
-        <p><a href="pasatiempo.html" style="font-weight: bold; font-size: 1.2em; color: #0066cc; text-decoration: none;">Ver mis Pasatiempos e Intereses →</a></p>
+      <p><a href="pasatiempo.html"
+          style="font-weight: bold; font-size: 1.2em; color: #0066cc; text-decoration: none;">Ver mis Pasatiempos e
+          Intereses →</a></p>
     </section>
+  </main>
+
 </html>

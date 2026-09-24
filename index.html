@@ -1,91 +1,155 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hoja de Vida - Andres Felipe Portilla</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soy Andrés y esta es mi hoja de vida</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-
-  <section class="seccion" id="perfil">
-    <h1>Andres Felipe Portilla</h1>
-    <img src="img/WhatsApp Image 2026-09-03 at 7.31.14 AM.jpeg" alt="foto mia" width="280">
-    <p>Estudiante de Ingeniería de Sistemas</p>
-  </section>
-  <main>
-    <hr>
-
-    <!-- SECCIÓN: EDUCACIÓN -->
-    <section class="seccion " id="educacion">
-      <h2>Educación</h2>
-
-      <article class="educacion">
-        <h3>Ingeniería de Sistemas</h3>
-        <p><strong>Institución:</strong> Universidad CESMAG</p>
-        <p><strong>Estado:</strong> En formación académica (5to semestre)</p>
-      </article>
-    </section>
+  <!-- Encabezado principal -->
+   <header>
+    <h1>Andrés Felipe Portilla</h1>
+    <h2>Ingeniero de Sistemas</h2>
+    <img src="img/WhatsApp Image 2026-09-03 at 7.31.14 AM.jpeg" alt="Fotografía de Andrés Portilla" width="150">
+   </header>
 
     <hr>
 
-    <!-- SECCIÓN: EXPERIENCIA PROFESIONAL -->
-    <section class="seccion" id="experiencia">
-      <h2>Experiencia Profesional</h2>
+    <main>
+      <!-- Perfil profesional --> 
 
-      <article class="experiencia">
+      <section class="section" id="Perfil">
+        <h2>Mi Perfil Profesional</h2>
+        <p>
+          Ingeniero de Sistemas y Experto en Ciberseguridad Avanzada.
+        </p>
 
-        <p><strong>Proyectos Académicos / Freefire</strong> (2022 Gran maestro)</p>
-        <ul>
-          <li>Diseño de estructura semántica de sitios web con HTML5.</li>
-          <li>Diseño de prototipos para aplicaciones en Figma.</li>
-          <li>Gestión y control de versiones con Git y GitHub.</li>
-        </ul>
-      </article>
+        <p>
+          Aficionado de la tecnología.
+        </p>
+      </section>
+
+    <hr>
+   
+    <!-- Información de contacto -->
+      <section class="section" id="contacto">
+        <h2>Información de contacto</h2>
+
+        <p>Correo: 
+        <a href="mailto:aportilla999@gmail.com">aportilla999@gmail.com</a>
+        </p>
+        <p>Teléfono:
+        <a href="tel:3156853792">3156853792</a>
+        </p>
+        <p>Ciudad: Pasto, Colombia</p>
+
+        <h3>Envíame un mensaje</h3>
+        <form action="">
+            <label for="Nombre">Nombre: </label>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Escribe tu nombre" required>
+        
+            <label for="Correo">Correo: </label>
+            <input type="email" id="Correo" name="Correo" placeholder="ejemplo@correo.com" required>
+    
+            <label for="Telefono">Teléfono: </label>
+            <input type="tel" id="Telefono" name="Telefono" placeholder="300 000 0000">
+            <br><br>
+
+            <label for="mensaje">Escribe tu mensaje: </label><br>
+            <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" required></textarea> 
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
     </section>
+    
+    <hr>
+        
+    <section class="section" id="Redes">
+    <!-- Redes sociales -->
+    <h2>Mis redes sociales</h2>
+
+    <ol> 
+      <li> 
+        <a href="https://www.instagram.com/" target="_blank"> Instagram </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank"> Facebook </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/?app=desktop&hl=es" target="_blank"> YouTube </a>
+      </li>           
+    </ol>
+      </section>    
+
+    <hr>
+        
+    <section class="section" id="Educación">
+    <div>
+     <h2>Educación</h2>
+    <article class="Educación">
+     <h3>Ingeniería de Sistemas</h3>
+     <p>Universidad CESMAG | En curso</p>
+    </article>
+
+    <article class="Educación">
+     <h3>SENA | Finalizado</h3>
+     <p>Técnico en Asistencia Administrativa</p>
+    </article>
+
+    </div>
+      </section>
+        
+    <hr>
+
+      <section class="section" id="Experiencia">
+    <div>
+     <h2>Experiencia profesional</h2>
+     <article class="Experiencia">
+     <h3>Estudiante en Ingeniería de Sistemas</h3>
+    <p>2026 - Actualidad</p>
+     </article>
+    </div>
+      </section>
 
     <hr>
 
-    <!-- SECCIÓN: HABILIDADES -->
-    <section class="seccion" id="habilidades">
-      <h2>Habilidades</h2>
-      <ul>
-        <li><strong>Desarrollo Web:</strong> HTML5, CSS3, JavaScript</li>
-        <li><strong>Herramientas & Control de Versiones:</strong> Git, GitHub, VS Code, Figma</li>
-        <li><strong>Bases de Datos:</strong> Lenguaje SQL, Microsoft Access</li>
-        <li><strong>Lógicas & Programación:</strong> Programación Orientada a Objetos (POO)</li>
-      </ul>
-    </section>
+     <section class="section" id="Habilidades">
+    <div>
+    <h2>Habilidades</h2>
+    <ul>
+      <li>Desarrollo web: HTML5, CSS3, JavaScript</li>
+      <li>Bases de datos y Ciberseguridad</li>
+      <li>Control de versiones: Git y GitHub</li>
+      <li>Resolución analítica de problemas</li>
+    </ul>
+    </div>
+     </section>
 
     <hr>
 
-    <!-- SECCIÓN: PROYECTOS -->
-    <section class="seccion" id="proyectos">
-      <h2>Proyectos</h2>
+     <section class="section" id="Proyectos">
+    <div>
+     <h2>Proyectos</h2>
+     <article class="Proyectos">
+     <h3>Urgex - Sistema de Rutas para Emergencias</h3>
+    <p>Propuesta y desarrollo de sistema inteligente para optimización de tiempos de respuesta en vehículos de emergencia mediante APIs de tráfico.</p>
+    </article>
+  </div>
+     </section>
 
-      <article class="proyectos">
-        <h3>Red Social Académica</h3>
-        <p>Diseño e implementación de prototipo en Figma y estructura web para una red social enfocada en interacción
-          universitaria e intereses académicos.</p>
-      </article>
+    <hr>
+    <h2>
+      <a href="pasatiempo.html">mis pasatiempos favoritos</a>
+    </h2>
 
-      <article class="proyectos">
-        <h3>Diseño y Normalización de Bases de Datos</h3>
-        <p>Estructuración de esquemas relacionales y modelado de datos (1FN, 2FN, 3FN) para sistemas de ventas y tiendas
-          digitales.</p>
-      </article>
-    </section>
+    </main>
 
-    <hr style="border: none; border-top: 1px dashed #ccc; margin: 30px 0;">
-
-    <!-- Enlace a la página de Pasatiempos -->
-    <section style="margin-top: 20px;">
-      <p><a href="pasatiempo.html"
-          style="font-weight: bold; font-size: 1.2em; color: #0066cc; text-decoration: none;">Ver mis Pasatiempos e
-          Intereses →</a></p>
-    </section>
-  </main>
-
+    <hr>
+    <!-- Pie de pagina -->
+     <footer>
+        Hoja de Vida - Andrés Portilla / Derechos Reservados 2026 ®️
+     </footer>
+</body>
 </html>
